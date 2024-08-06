@@ -8,6 +8,15 @@ import os
 # 
 from person import Person
 
+
+'''
+    TO-DO:
+      > randomize input
+      > randomize number of exp counselors
+      > randomize sex distribution
+      > revise output result format
+'''
+
 class inputGenerator:
 
     # numThirdYears (<= 3) # includes 4th years
@@ -24,10 +33,12 @@ class inputGenerator:
     ##
     ##
     def generate(self):
+        # TO-DO: RANDOMIZE INPUT 
+        # What this is doing right now is giving pre-set 12 boy names (A-L) and 12 girl names (M-X)
         names = ['Adam', 'Brett', 'Connor', 'Dylan', 'Evan', 'Fernan', 
                  'George', 'Harry', 'Ivan', 'Jake', 'Kyle', 'Louis',         # boys
                  'Mary', 'Naomi', 'Olivia', 'Peri', 'Quinley', 'Riley', 
-                 'Savannah', 'Tori', 'Ursula', 'Violet', 'Winona', 'Yvonne'] # girls
+                 'Savannah', 'Tori', 'Ursula', 'Violet', 'Winona', 'Xena'] # girls
         persons = []
         experienceLevel = 3
         count = 0
