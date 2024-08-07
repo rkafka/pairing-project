@@ -1,10 +1,10 @@
 class Person:
-	def __init__(self, name:str, exp:int, sex:str="x", prefList:List=None):
+	def __init__(self, name:str, exp:int, sex:str=None):#, prefList:List=None):
 		self.name = name
 		self.exp = exp
-		# to implement later
-		self.prefList = None
 		self.sex = sex
+		# to implement later
+		self.prefList = [None * 24]
 
 	def __str__(self)->str:
 		return self.name + " (" + str(self.exp) + "-year " + self.sex + ")"
