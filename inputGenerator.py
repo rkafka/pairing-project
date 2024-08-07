@@ -78,8 +78,9 @@ class inputGenerator:
     lastNames = [
         'Alcock', 'Allen', 'Amendola', 'Adams', 'Aniston'
         'Brand', 'Baxter', 'Bell', 'Baker', 'Bagheri', 'Black', 'Bravo', 'Banner',
-                 'Barnett', 'Brinson', 'Burnett', 'Bellion', 'Battley', 
-        'Chong', 'Crawford', 'Cochran', 'Cook', 'Coffee', 'Cloudsley', 'Cubert', 'Columbus',
+                'Barnett', 'Brinson', 'Burnett', 'Bellion', 'Battley', 
+        'Chong', 'Crawford', 'Cochran', 'Cook', 'Coffee', 'Cloudsley', 'Cubert', 
+                'Columbus', 'Cage', 
         'Dean', 'Davidson', 'Dunn', 'Daniels', 'Day',
         'Elliot', 'Einspahr', 'Evans', 'Eilish',
         'Fox', 'Fallon', 'Freddo', 'FitzGibbon', 'Floreslovo', 'Fuches',
